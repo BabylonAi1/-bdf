@@ -1,0 +1,27 @@
+node_modules
+.next
+out
+.DS_Store
+*.log
+.env*.local
+tmp
+
+# build artifacts
+.next/
+out/
+dist/
+build/
+
+# tsbuildinfo
+*.tsbuildinfo
+
+# large trained data files (>5MB Tesseract model)
+eng.traineddata
+
+# os
+.DS_Store
+Thumbs.db
+
+# editor
+.vscode/
+.idea/
