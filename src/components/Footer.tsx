@@ -33,14 +33,36 @@ export function Footer({ t }: Props) {
             </div>
           </div>
 
-          <nav className="flex items-center gap-1 text-sm font-medium text-ink-600">
+          <nav className="flex items-center gap-1 text-sm font-medium text-ink-600 flex-wrap justify-center">
             <a href="#translate" className="px-3 py-1.5 rounded-full hover:text-brand-700 hover:bg-white">
               {t('hero.cta')}
             </a>
             <a href="#features" className="px-3 py-1.5 rounded-full hover:text-brand-700 hover:bg-white">
               {t('nav.features')}
             </a>
+            <a href="/about" className="px-3 py-1.5 rounded-full hover:text-brand-700 hover:bg-white">
+              About
+            </a>
+            <a href="/privacy" className="px-3 py-1.5 rounded-full hover:text-brand-700 hover:bg-white">
+              Privacy
+            </a>
+            <a href="/terms" className="px-3 py-1.5 rounded-full hover:text-brand-700 hover:bg-white">
+              Terms
+            </a>
           </nav>
+        </div>
+
+        {/* Support / Buy Me a Coffee */}
+        <div className="mt-8 flex justify-center">
+          <a
+            href="https://www.buymeacoffee.com/babylonai1"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-gradient-to-r from-yellow-400 to-orange-500 text-white font-semibold text-sm shadow-elev hover:shadow-lg transition-shadow"
+          >
+            <span aria-hidden>☕</span>
+            <span>Buy me a coffee — ادعم المطور</span>
+          </a>
         </div>
 
         <div className="mt-8 pt-6 border-t border-ink-200/60 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-ink-500">
