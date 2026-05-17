@@ -55,7 +55,7 @@ export function Footer({ t }: Props) {
         {/* Support / Buy Me a Coffee */}
         <div className="mt-8 flex justify-center">
           <a
-            href="https://www.buymeacoffee.com/babylonai1"
+            href="https://www.buymeacoffee.com/soogxter3d"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-gradient-to-r from-yellow-400 to-orange-500 text-white font-semibold text-sm shadow-elev hover:shadow-lg transition-shadow"
